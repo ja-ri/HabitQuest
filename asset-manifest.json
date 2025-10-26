@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/HabitQuest/static/css/main.51cf7d9f.css",
-    "main.js": "/HabitQuest/static/js/main.5822bb1f.js",
+    "main.js": "/HabitQuest/static/js/main.353d220a.js",
     "static/media/level-up.mp3": "/HabitQuest/static/media/level-up.f65684e8e91f5683f947.mp3",
     "index.html": "/HabitQuest/index.html",
     "main.51cf7d9f.css.map": "/HabitQuest/static/css/main.51cf7d9f.css.map",
-    "main.5822bb1f.js.map": "/HabitQuest/static/js/main.5822bb1f.js.map"
+    "main.353d220a.js.map": "/HabitQuest/static/js/main.353d220a.js.map"
   },
   "entrypoints": [
     "static/css/main.51cf7d9f.css",
-    "static/js/main.5822bb1f.js"
+    "static/js/main.353d220a.js"
   ]
 }
