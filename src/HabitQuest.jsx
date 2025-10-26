@@ -9,9 +9,14 @@ const HabitQuest = () => {
   const [currentUser, setCurrentUser] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [habits, setHabits] = useState([
-    { id: 1, name: "Drink Water", xp: 10 },
-    { id: 2, name: "Exercise", xp: 20 },
-    { id: 3, name: "Meditate", xp: 15 },
+    { id: 1, name: 'Drink Water', xp: 10 },
+    { id: 2, name: 'Breakfast', xp: 15 },
+    { id: 3, name: 'Exercise', xp: 20 },
+    { id: 4, name: 'Relax', xp: 15 },
+    { id: 5, name: 'Shower', xp: 20 },
+    { id: 6, name: 'Stretch', xp: 25 },
+    { id: 7, name: 'Work', xp: 20 },
+    { id: 8, name: 'School Work', xp: 30 },
   ]);
   const [completed, setCompleted] = useState([]);
   const [xp, setXp] = useState(0);
