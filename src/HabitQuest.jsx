@@ -114,7 +114,7 @@ const HabitQuest = () => {
       setXp((prev) => prev - levelThreshold);
       setShowLevelUp(true);
       confetti({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
-      levelUpSound.play();
+      levelUpSound.play().catch(err => console.log(err));
       setTimeout(() => setShowLevelUp(false), 2000);
     }
   }, [xp]);
